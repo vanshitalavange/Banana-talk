@@ -8,25 +8,28 @@
     <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container container-heading">
-      <h1>Banana talk</h1>
-    </div>
-    <div class="maincontent">
+  
+    <nav class="navigation container">
+      <div class="nav-brand">Banana Talk</div>
+    </nav>
+    <div class="main">
+      <header class="hero">
+          <img class="hero-img" src="gifs/bananas-lolol.gif"/>
+        <!-- <h1 class="hero-heading">
+          Welcome to the <span class="heading-inverted"> Pig world</span> !
+        </h1> -->
+      </header>
+
       <textarea
-        class="container textinput"
+        class="input-text"
         id="txt-input"
-        placeholder="enter your text to convert into banana language"
+        placeholder="enter text to convert to banana language"
       ></textarea>
-
-      <button class="container btn-translate" id="btn-translate">
-        Translate to banana
-      </button>
-
-      <div class="container output-heading">
-        Your Translation will come here 👇
-      </div>
-      <div class="translatedtext" id="output"></div>
+      <button class="translate-button" id="btn-translate">Translate</button>
+      <div class="output">Your translation will come here 👇</div>
+      <div id="output"></div>
     </div>
+
     <footer class="footer">
       <div class="footer-heading">social media presence</div>
       <ul class="social-links list-non-bullet">
