@@ -6,6 +6,7 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Ubuntu', sans-serif;
 font-style: italic;
 margin:0;
+
 }
 
  :root{
@@ -13,12 +14,26 @@ margin:0;
      --darkgray : #374151;
  }
 
- 
- .container-center{
+ .section{
+    margin: auto;
+    padding:1rem 2rem;
+  
+    display: block;
 
-        padding:1rem 2rem;
+ }
+.section-heading{
         text-align: center;
-        display :block;
         background-color: var(--primary-color);
         color:var(--darkgray);
  }
+
+ .section-textarea{
+     width:80%;
+     height:10vh;
+    margin-top:5rem;
+    border : 1px solid var(--primary-color);
+    border-radius : 0.5rem;
+ }
+ 
+
+ 
