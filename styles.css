@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,700;1,300&family=Raleway:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-style: italic;
+margin:0;
+}
+
+ :root{
+     --primary-color : #FCD34D;
+     --darkgray : #374151;
+ }
+
+ 
+ .container-center{
+
+        padding:1rem 2rem;
+        text-align: center;
+        display :block;
+        background-color: var(--primary-color);
+        color:var(--darkgray);
+ }
