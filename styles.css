@@ -115,6 +115,7 @@ body {
 }
 .footer .link {
   color: white;
+  padding-right:1rem;
 }
 
 .footer ul {
